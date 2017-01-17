@@ -1,0 +1,92 @@
+body {
+    background: rgba(73, 155, 234, 1);
+    background: -moz-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(188, 32, 227, 1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73, 155, 234, 1)), color-stop(100%, rgba(188, 32, 227, 1)));
+    background: -webkit-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(188, 32, 227, 1) 100%);
+    background: -o-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(188, 32, 227, 1) 100%);
+    background: -ms-linear-gradient(left, rgba(73, 155, 234, 1) 0%, rgba(188, 32, 227, 1) 100%);
+    background: linear-gradient(to right, rgba(73, 155, 234, 1) 0%, rgba(188, 32, 227, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#bc20e3', GradientType=1);
+}
+
+h1 {
+    font-family: 'Bungee Shade', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+form {
+    float: left;
+    width: 100%;
+}
+
+form .button {
+    border: solid 1px #638a00;
+    border-radius: 3px;
+    moz-border-radius: 3px;
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.4);
+    font-size: 20px;
+    color: #ffffff;
+    padding: 1px 17px;
+    background: #96c300;
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #96c300), color-stop(100%, #648c00));
+    background: -moz-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background: -webkit-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background: -o-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background: -ms-linear-gradient(top, #96c300 0%, #648c00 100%);
+    background: linear-gradient(top, #96c300 0%, #648c00 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#96c300', endColorstr='#648c00', GradientType=0);
+}
+
+.dis {
+    margin: 163px 0 0 588px;
+    display: none;
+}
+
+input {
+    background-color: greenyellow;
+    width: 20%;
+    margin-bottom: 10px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    font-size: 13px;
+    color: white;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.2), 0 1px 1px rgba(255, 255, 255, 0.2);
+    -webkit-transition: box-shadow .5s ease;
+    -moz-transition: box-shadow .5s ease;
+    -o-transition: box-shadow .5s ease;
+    -ms-transition: box-shadow .5s ease;
+    transition: box-shadow .5s ease;
+    display: block;
+}
+
+input:focus {
+    box-shadow: inset 0 -5px 45px rgba(100, 100, 100, 0.4), 0 1px 1px rgba(255, 255, 255, 0.2);
+}
+
+#candidatlist {
+    font-size: 20px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.pos-votant {
+    position: absolute;
+    top: 150px;
+    left: 43%;
+    width: 76%;
+    float: left;
+}
+
+#result {
+    position: absolute;
+    top: 530px;
+    left: 45%;
+    font-size: 22px;
+}
